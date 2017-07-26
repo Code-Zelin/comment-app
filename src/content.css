@@ -1,0 +1,34 @@
+.content{
+
+}
+.content>div{
+    width: 400px;
+    margin-bottom: 20px;
+}
+.content>div:last-child{
+    margin-bottom: 0;
+}
+.content>div .app-title{
+    display: inline-block;
+    width: 80px;
+    font-size: 12px;
+    vertical-align: top;
+}
+.content>div>input{
+    width: 320px;
+}
+.content>div>textarea{
+    width: 320px;
+    height: 100px;
+    resize: none;
+}
+.content .publish-btn{
+    display: block;
+    width: 100px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border: none;
+    background: #0084c7;
+    color: #fff;
+}
